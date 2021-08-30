@@ -15,7 +15,10 @@ export default function Home() {
   const isFontReady = useIsFontReady();
   return (
     <div>
-
+      <Head>
+        <title>Aashir Aamir Khan - Ash</title>
+      </Head>
+      
       <div className="p-10 mx-auto container">
         <div className="max-w-2xl">
           <Image

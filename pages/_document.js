@@ -5,7 +5,6 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <title>Aashir Aamir Khan - Ash</title>
           <meta
             name="description"
             content=" I leaded the front-end team who designed, coded and nurtured the dashboard being used by
