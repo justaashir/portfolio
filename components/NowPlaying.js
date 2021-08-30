@@ -25,13 +25,13 @@ export default function NowPlaying() {
           </a>
         ) : (
           <p className="text-gray-800 font-medium">
-            Not Playing
+            Not Playing anything
           </p>
         )}
         <span className="mx-2 text-gray-500 hidden sm:block">
           {' – '}
         </span>
-        <p className="text-gray-500 max-w-max truncate w-64">
+        <p className="text-gray-500 max-w-max truncate w-48">
           {data?.artist ?? 'Spotify'}
         </p>
       </div>
