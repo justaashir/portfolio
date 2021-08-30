@@ -18,7 +18,7 @@ export default function Home() {
       <Head>
         <title>Aashir Aamir Khan - Ash</title>
       </Head>
-      
+
       <div className="p-10 mx-auto container">
         <div className="max-w-2xl">
           <Image
@@ -37,7 +37,7 @@ export default function Home() {
           <div className="mt-4 text-gray-800">
             <RoughNotationGroup show={true}>
               <p>
-                I leaded the front-end team who designed, coded and nurtured the
+                I lead the front-end team who designed, coded and nurtured the
                 dashboard being used by 200,000+ users. currently serving as{" "}
                 <RainbowHighlight color={colors[0]}>
                   Head of Product
