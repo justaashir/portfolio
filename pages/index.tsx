@@ -19,7 +19,7 @@ export default function Home() {
         <title>Aashir Aamir Khan - Ash</title>
       </Head>
 
-      <div className="p-10 mx-auto container">
+      <div className="p-6 lg:p-10 mx-auto container">
         <div className="max-w-2xl">
           <Image
             src={profileImg}
