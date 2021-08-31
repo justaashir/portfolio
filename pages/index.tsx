@@ -100,7 +100,7 @@ export default function Home() {
               </p>
             </RoughNotationGroup>
 
-            <div className="p-4 border flex items-center flex-wrap justify-between rounded-md relative bg-gray-50 my-10">
+            <div className="p-4 border flex items-center flex-wrap justify-between rounded-md bg-gray-50 my-10">
               <div className="w-5/12 mx-auto lg:mb-0 mb-4">
                 <img src="/mail.svg" alt="" />
               </div>
