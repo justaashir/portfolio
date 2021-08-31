@@ -191,7 +191,7 @@ export default function Home() {
                     />
 
                     <div className="text-sm text-gray-800 mt-4">
-                      <RoughNotationGroup show={isFontReady}>
+                      <RoughNotationGroup show={true}>
                         <RainbowHighlight color={colors[3]}>
                           I hate Spam
                         </RainbowHighlight>{" "}
