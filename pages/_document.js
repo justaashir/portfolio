@@ -10,9 +10,14 @@ class MyDocument extends Document {
           {/* META TAGS */}
           <meta property="og:title" content="Aashir Aamir Khan - Ash" />
           <meta property="og:description" content={description} />
-          <meta property="og:image" content="/meta-img.png" />
+          <meta property="og:image" content="/meta-img-2.png" />
           <meta property="og:url" content="https://justaashir.com" />
-          <meta name="twitter:card" content="summary_large_image"></meta>
+
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://justaashir.com/" />
+          <meta property="twitter:title" content="Aashir Aamir Khan - Ash">
+          <meta property="twitter:description" content={description} />
+          <meta property="twitter:image" content="/meta-img-2.png"></meta>
 
           <meta
             name="description"
