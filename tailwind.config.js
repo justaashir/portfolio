@@ -4,9 +4,7 @@ module.exports = {
       "./pages/**/*.{js,ts,jsx,tsx}",
       "./components/**/*.{js,ts,jsx,tsx}",
     ],
-    safelist: [
-      'rough-notation'
-    ]
+    safelist: ["rough-notation"],
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -18,5 +16,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };
