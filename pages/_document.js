@@ -17,7 +17,7 @@ class MyDocument extends Document {
           <meta property="twitter:url" content="https://justaashir.com/" />
           <meta property="twitter:title" content="Aashir Aamir Khan - Ash">
           <meta property="twitter:description" content={description} />
-          <meta property="twitter:image" content="/meta-img-2.png"></meta>
+          <meta property="twitter:image" content="/meta-img-2.png" />
 
           <meta
             name="description"
