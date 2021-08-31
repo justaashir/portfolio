@@ -7,7 +7,6 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          {/* META TAGS */}
           <meta property="og:title" content="Aashir Aamir Khan - Ash" />
           <meta property="og:description" content={description} />
           <meta property="og:image" content="/meta-img-2.png" />
@@ -15,15 +14,11 @@ class MyDocument extends Document {
 
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://justaashir.com/" />
-          <meta property="twitter:title" content="Aashir Aamir Khan - Ash">
+          <meta property="twitter:title" content="Aashir Aamir Khan - Ash" />
           <meta property="twitter:description" content={description} />
           <meta property="twitter:image" content="/meta-img-2.png" />
 
-          <meta
-            name="description"
-            content={description}
-          />
-          <link rel="icon" href="/favicon.ico" />
+          <meta name="description" content={description} />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
