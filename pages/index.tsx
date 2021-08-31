@@ -108,7 +108,7 @@ export default function Home() {
               <div>
                 <h3 className="mb-4 text-lg lg:text-xl text-gray-800 font-medium">
                   Subscribe to my{" "} {""}
-                  <RoughNotationGroup show={isFontReady}>
+                  <RoughNotationGroup show={true}>
                     <a href="https://www.getrevue.co/profile/justaashir">
                       <CircleHighlight color={colors[1]}>
                         Newsletter
