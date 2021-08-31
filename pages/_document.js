@@ -19,6 +19,7 @@ class MyDocument extends Document {
           <meta property="twitter:image" content="/meta-img-2.png" />
 
           <meta name="description" content={description} />
+          <link rel="icon" href="/favicon.png" type="image/png" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
