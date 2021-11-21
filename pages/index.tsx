@@ -24,7 +24,7 @@ export async function getStaticProps() {
   const { movies, foods } = await graphcms.request(
     `
     query Library {
-      movies {
+      movies(orderBy: createdAt_DESC, first:2) {
         id
         name
         review
@@ -150,7 +150,7 @@ export default function Home({ movies, foods } : { movies: any, foods: any}) {
               <div className="text-green-500">
                 <RoughNotationGroup show={isFontReady}>
                   <CircleHighlight color={colors[1]}>
-                    Last 3 Movies, I watched
+                    Last 2 Movies, I watched
                   </CircleHighlight>
                 </RoughNotationGroup>
               </div>
@@ -233,7 +233,7 @@ export default function Home({ movies, foods } : { movies: any, foods: any}) {
                 })}
 
                 <a
-                  className="flex text-sm font-bold items-center justify-center flex-col border border-pink-600 rounded-md"
+                  className="flex text-center text-sm font-bold items-center justify-center flex-col border border-pink-600 rounded-md"
                   href="https://www.instagram.com/stories/highlights/17960559016490467/"
                 >
                   <img
