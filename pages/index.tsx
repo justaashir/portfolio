@@ -150,7 +150,7 @@ export default function Home({ movies, foods } : { movies: any, foods: any}) {
               <div className="text-green-500">
                 <RoughNotationGroup show={isFontReady}>
                   <CircleHighlight color={colors[1]}>
-                    Last 2 Movies, I watched
+                    Last 3 Movies, I watched
                   </CircleHighlight>
                 </RoughNotationGroup>
               </div>
