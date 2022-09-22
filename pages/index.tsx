@@ -64,7 +64,7 @@ export default function Home({ movies, foods } : { movies: any, foods: any}) {
   return (
     <div>
       <Head>
-        <title>Aashir Aamir Khan - Ash</title>
+        <title>Aashir Khan - I work at Kiwify</title>
       </Head>
 
       <div className="p-6 lg:p-10 mx-auto container">
