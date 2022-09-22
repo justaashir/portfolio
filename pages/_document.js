@@ -7,7 +7,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <meta property="og:title" content="Aashir Aamir Khan - Ash" />
+          <meta property="og:title" content="Aashir Khan - I work at Kiwify" />
           <meta property="og:description" content={description} />
           <meta property="og:image" content="/meta-img-2.png" />
           <meta property="og:url" content="https://justaashir.com" />
