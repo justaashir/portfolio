@@ -1,7 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
-let description = `I lead the front-end team who designed, coded and nurtured the dashboard being used by
-                200,000+ users. currently serving as Head of Product at Kiwify — focused on creating the best experience for digital products seller & buyers.`;
+let description = `Head of Product at Kiwify — focused on creating the best experience for digital creators & consumers. The platform allows users to sell their courses, e-books, community, and physical events. It's one of the biggest platform in 🇧🇷 Brazil with millions of users`;
 class MyDocument extends Document {
   render() {
     return (
@@ -26,7 +25,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
             rel="stylesheet"
           />
-          <script async src="https://cdn.splitbee.io/sb.js"></script>
+          <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet"></link>
         </Head>
         <body>
           <Main />

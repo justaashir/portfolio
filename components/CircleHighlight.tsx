@@ -15,6 +15,7 @@ export const CircleHighlight = ({
     <RoughNotation
       type="underline"
       multiline={true}
+      color={color}
     >
       {children}
     </RoughNotation>
