@@ -4,7 +4,7 @@ let description = `Head of Product at Kiwify — focused on creating the best ex
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="en" className="bg-yellow-50">
         <Head>
           <meta property="og:title" content="Aashir Khan - I work at Kiwify" />
           <meta property="og:description" content={description} />
