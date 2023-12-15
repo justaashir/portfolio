@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
       <Analytics />
 
-      Fun
+      Coming Soon!
     </div>
   )
 }
