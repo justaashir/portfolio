@@ -1,14 +1,10 @@
 import Head from "next/head";
-import { Analytics } from '@vercel/analytics/react';
 import Image from "next/image";
 import { useIsFontReady } from "../lib/useIsFontReady";
-import cx from "clsx";
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+import wrapped from "../public/wrapped.webp";
+import { RoughNotationGroup } from "react-rough-notation";
 import { CircleHighlight } from "../components/CircleHighlight";
-import profileImg from "../public/profile-pic.jpeg";
-const colors = ["#78350f", "#BAE6FD", "#C7D2FE", "#FDE68A"];
-const FOCUS_VISIBLE_OUTLINE = `focus:text-sky-500 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-sky-500 focus-visible:ring-opacity-60 focus-visible:outline-none focus:outline-none  rounded`;
-import NowPlaying from "../components/NowPlaying";
+const colors = ["#78350f", "#3440eb", "#34eb8c", "#FDE68A"];
 
 export default function Home() {
 
@@ -17,11 +13,44 @@ export default function Home() {
     <div className="bg-yellow-50 min-h-screen">
 
       <Head>
-        <title>Aashir Khan - Great developer, good writer and mediocre chef.</title>
+        <title>Finding fun - Aashir Khan</title>
       </Head>
-      <Analytics />
 
-      Coming Soon!
+      <div className="px-6 pt-6 lg:pt-10 lg:px-10 mx-auto container">
+        <div className="max-w-2xl">
+          <h1 className="text-4xl mt-2 font-bold text-yellow-900 lg:text-4xl">
+            Finding fun, a personal journey
+          </h1>
+          <p className="mt-4">
+            So what's fun? for me, It's still a very vague thing. What others find fun, feels super boring to me most times and what I find fun may not be fun to you. 
+            <br/>
+            I think the best way to phrase this up would be the things I like to do in my free time. Here are some of them:
+          </p>
+
+          <div className="mt-4">
+            <RoughNotationGroup show={isFontReady}>
+            I don't have time right now to add sections here right now that would show my favorite movies, music and books.
+            But 
+            <a href="https://www.rottentomatoes.com/m/past_lives" target="_blank">
+              {" "}<CircleHighlight color={colors[1]}>
+              Past lives
+              </CircleHighlight>
+            </a> is my current favorite movie from 2023 and <a href="https://www.rottentomatoes.com/m/the_banshees_of_inisherin" target="_blank">
+              {" "}<CircleHighlight color={colors[2]}>
+              The Banshees of Inisherin
+              </CircleHighlight> of 2022
+            </a>
+            </RoughNotationGroup>
+
+            <div className="mt-4">
+              Here's my Spotify wrapped 2023:
+              <div className="mt-4">
+                <Image src={wrapped} alt="" width={250} height={400} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

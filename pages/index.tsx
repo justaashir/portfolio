@@ -1,9 +1,8 @@
 import Head from "next/head";
-import { Analytics } from '@vercel/analytics/react';
 import Image from "next/image";
 import { useIsFontReady } from "../lib/useIsFontReady";
 import cx from "clsx";
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+import { RoughNotationGroup } from "react-rough-notation";
 import { CircleHighlight } from "../components/CircleHighlight";
 import profileImg from "../public/profile-pic.jpeg";
 const colors = ["#78350f", "#BAE6FD", "#C7D2FE", "#FDE68A"];
@@ -17,9 +16,8 @@ export default function Home() {
     <div className="bg-yellow-50 min-h-screen">
 
       <Head>
-        <title>Aashir Khan - Great developer, good writer and mediocre chef.</title>
+        <title>Aashir Khan - Programmer, writer and mediocre chef</title>
       </Head>
-      <Analytics />
 
       <div className="px-6 pt-6 lg:pt-10 lg:px-10 mx-auto container">
         <div className="max-w-2xl">
@@ -33,11 +31,11 @@ export default function Home() {
             height={100}
           />
           
-          <h3 className="text-4xl mt-2 font-bold text-yellow-900 lg:text-4xl">
+          <h1 className="text-4xl mt-2 font-bold text-yellow-900 lg:text-4xl">
             { Math.floor(Math.random() * 2) === 0 ?  `E aí, eu sou` : `Sup, It's` } <span style={{fontFamily: 'Kalam'}}>Ash</span>
-          </h3>
+          </h1>
 
-          <p className="text-yellow-900 text-lg italic">Great developer, good writer and mediocre chef.</p>
+          <p className="text-yellow-900 text-lg italic">Programmer, writer and a mediocre chef.</p>
 
           <div className="mt-4">
             <RoughNotationGroup show={isFontReady}>
